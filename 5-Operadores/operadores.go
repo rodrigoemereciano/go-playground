@@ -52,7 +52,7 @@ func main() {
 
 	fmt.Println(numero)
 
-	//Operadores Ternarios
+	//Operadores Ternarios não existem no Go
 	var texto string
 	if numero > 5 {
 		texto = "Maior que 5"
@@ -60,4 +60,5 @@ func main() {
 		texto = "Menor que 5"
 	}
 	fmt.Println(texto)
+
 }
