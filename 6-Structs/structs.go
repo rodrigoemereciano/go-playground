@@ -20,9 +20,11 @@ func main() {
 	u.nome = "Rômulo"
 	u.idade = 25
 
-	fmt.Println(u)
+	enderecoExemplo := endereco{"Rua 01", 0}
 
-	enderecoExemplo := endereco{"Rua dos Bobos", 0}
+	u.endereco = enderecoExemplo
+
+	fmt.Println(u)
 
 	usuario2 := usuario{"Davi", 23, enderecoExemplo}
 	fmt.Println(usuario2)
